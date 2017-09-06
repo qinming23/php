@@ -29,6 +29,8 @@ elif [ -e "/opt/remi/php56/root/usr/sbin/php-fpm" ];then
 	SERVER_BIN="/opt/remi/php56/root/usr/sbin/php-fpm"
 elif [ -e "/opt/remi/php70/root/usr/sbin/php-fpm" ];then
 	SERVER_BIN="/opt/remi/php70/root/usr/sbin/php-fpm"
+elif [ -e "/opt/remi/php71/root/usr/sbin/php-fpm" ];then
+	SERVER_BIN="/opt/remi/php71/root/usr/sbin/php-fpm"
 fi
 
 echo -n -e "[\033[35m$SERVER_BIN\033[0m]	"
